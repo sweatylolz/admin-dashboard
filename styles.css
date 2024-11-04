@@ -16,6 +16,15 @@ body {
     grid-template-columns: 3fr 1fr;
 }
 
+.search {
+    text-align : center;
+}
+
+#search-icon, form {
+    display: inline-block;
+    vertical-align: middle
+}
+
 .sidebar {
     display: grid;
     grid-row: 1 / 3;
