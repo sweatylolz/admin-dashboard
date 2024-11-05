@@ -72,10 +72,11 @@ input {
 
 .header-top-right {
     display: grid;
-    grid-template-columns: 1fr 1fr 4fr;
+    grid-template-columns: 50px 50px 100px;
     align-items: center;
+    justify-items: center;
+    justify-self: right;
     padding-top: 15px;
-    gap: 20px;
     
 }
 
@@ -87,8 +88,9 @@ input {
 .btn-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 15px;
-    gap: 10px;
+    padding-top: 25px;
+    padding-right: 15px;
+    gap: 40px;
     
 }
 
