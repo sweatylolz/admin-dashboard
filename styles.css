@@ -3,6 +3,7 @@
 body {
   background: white;
   font-family: Roboto;
+  margin: auto;
 }
 
 .container {
@@ -140,19 +141,15 @@ li {
     color: black;
 }
 
-.header, 
-.sidebar, 
-.main-content
-{
-    border: 1px solid black;
-}
-
 .article-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 60px 1fr 1fr 1fr;
-    gap: 5px;
+    padding-left: 15px;
+    gap: 20px;
     grid-row: span 2;
+    margin-right: 25px;
+    margin-bottom: 40px;
 }
 
 #article-header {
@@ -160,8 +157,8 @@ li {
 }
 
 .article {
-    width: 250px;
-    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
 }
 
 .announcements-container {
