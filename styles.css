@@ -116,7 +116,7 @@ svg {
     width: 25px;
     height: 25px;
     vertical-align: middle;
-    padding-right: 5px;
+    padding-right: 10px;
 }
 
 #sidebar-header svg {
@@ -133,7 +133,7 @@ svg {
 }
 
 li {
-    padding-top: 5px;
+    padding-top: 10px;
     list-style-type: none;
 }
 
@@ -212,6 +212,10 @@ li {
 
 .announcement-item {
     border-top: solid gray 1 px;
+}
+
+.announcement-item p {
+    margin-top: -10px;
 }
 
 p {
