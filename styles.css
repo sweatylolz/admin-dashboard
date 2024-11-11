@@ -184,6 +184,8 @@ li {
 }
 
 .announcement-item-container, .trending-item-container {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     padding: 10px;
     margin-right: 15px;
@@ -235,4 +237,27 @@ p {
 
 .article-clickables svg {
     height: 20px;
+}
+
+.avatar-trending {
+    width: 25px;
+    height: 25px;
+}
+
+.trending-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.trending-item h5 {
+    margin-bottom: 2px;
+}
+
+.trending-item p {
+    margin-top: 2px;
+}
+
+.trending-item img {
+    padding-right: 10px;
 }
